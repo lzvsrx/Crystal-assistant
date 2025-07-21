@@ -255,7 +255,7 @@ def create_reminder_or_appointment(user_input):
     return None
 
 def get_news_summary(query):
-    search_results = Google Search(query)
+    search_results = Google_Search(query)
     if not search_results or isinstance(search_results, str): # Verifica se é uma string de erro
         return search_results if isinstance(search_results, str) else f"Não encontrei notícias ou artigos sobre '{query}'. Tente um termo diferente."
     
