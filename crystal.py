@@ -107,7 +107,7 @@ def get_weather(city):
         return "Ocorreu um erro inesperado ao buscar o tempo. Tente novamente."
 
 
-def Google Search(query):
+def Google_Search(query):
     """Realiza uma busca na internet usando a Google Custom Search API."""
     if not Google Search_API_KEY or not GOOGLE_CSE_ID:
         return "Desculpe, as chaves da API de busca do Google (ou o CSE ID) não estão configuradas."
