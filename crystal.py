@@ -109,7 +109,7 @@ def get_weather(city):
 
 def Google_Search(query):
     """Realiza uma busca na internet usando a Google Custom Search API."""
-    if not Google Search_API_KEY or not GOOGLE_CSE_ID:
+    if not Google_Search_API_KEY or not GOOGLE_CSE_ID:
         return "Desculpe, as chaves da API de busca do Google (ou o CSE ID) não estão configuradas."
     search_url = "https://www.googleapis.com/customsearch/v1"
     params = {"key": Google Search_API_KEY, "cx": GOOGLE_CSE_ID, "q": query}
