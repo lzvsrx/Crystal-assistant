@@ -15,8 +15,7 @@ CRYSTAL_IMAGE_URL = "crystal_avatar.png"
 # --- Carregar Chaves de API de st.secrets ---
 try:
     OPENWEATHER_API_KEY = st.secrets["OPENWEATHER_API_KEY"]
-    # LINHA CORRIGIDA AQUI: nome da variável não pode ter espaço
-    Google Search_API_KEY = st.secrets["Google Search_API_KEY"] 
+    Google Search_API_KEY = st.secrets["Google Search_API_KEY"]
     GOOGLE_CSE_ID = st.secrets["GOOGLE_CSE_ID"]
     GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
 except KeyError as e:
