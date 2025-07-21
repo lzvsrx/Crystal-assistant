@@ -112,7 +112,7 @@ def Google_Search(query):
     if not Google_Search_API_KEY or not GOOGLE_CSE_ID:
         return "Desculpe, as chaves da API de busca do Google (ou o CSE ID) não estão configuradas."
     search_url = "https://www.googleapis.com/customsearch/v1"
-    params = {"key": Google Search_API_KEY, "cx": GOOGLE_CSE_ID, "q": query}
+    params = {"key": Google_Search_API_KEY, "cx": GOOGLE_CSE_ID, "q": query}
     try:
         response = requests.get(search_url, params=params)
         response.raise_for_status() # Lança HTTPError para códigos de status 4xx/5xx
