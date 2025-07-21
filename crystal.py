@@ -14,7 +14,7 @@ CRYSTAL_IMAGE_URL = "https://via.placeholder.com/150"
 
 # --- Carregar Chaves de API de st.secrets com Tratamento de Erros ---
 OPENWEATHER_API_KEY = None
-Google Search_API_KEY = None
+Google_Search_API_KEY = None
 GOOGLE_CSE_ID = None
 GEMINI_API_KEY = None
 
