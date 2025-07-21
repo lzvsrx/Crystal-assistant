@@ -10,7 +10,7 @@ st.set_page_config(page_title="Crystal - Sua Assistente Pessoal", layout="center
 
 # URL da imagem da Crystal
 # Substitua pela sua imagem real, por exemplo: "https://i.imgur.com/your_crystal_image.png"
-CRYSTAL_IMAGE_URL = "https://via.placeholder.com/150"
+CRYSTAL_IMAGE_URL = "crystal_avatar.png"
 
 # --- Carregar Chaves de API de st.secrets ---
 try:
