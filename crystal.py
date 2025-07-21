@@ -27,7 +27,7 @@ if not os.path.exists(secrets_file_path):
 
 try:
     OPENWEATHER_API_KEY = st.secrets["OPENWEATHER_API_KEY"]
-    Google Search_API_KEY = st.secrets["Google Search_API_KEY"]
+    Google_Search_API_KEY = st.secrets["Google Search_API_KEY"]
     GOOGLE_CSE_ID = st.secrets["GOOGLE_CSE_ID"]
     GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
 except KeyError as e:
