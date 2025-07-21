@@ -18,7 +18,7 @@ Google Search_API_KEY = None
 GOOGLE_CSE_ID = None
 GEMINI_API_KEY = None
 
-secrets_file_path = ".streamlit/secrets.toml"
+secrets_file_path = "secrets.toml"
 
 if not os.path.exists(secrets_file_path):
     st.error(f"Erro: O arquivo de segredos '{secrets_file_path}' não foi encontrado. "
