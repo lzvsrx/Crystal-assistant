@@ -311,7 +311,7 @@ def crystal_respond(user_input, chat_history_for_gemini):
     elif "pesquisar por" in user_input_lower or "pesquise por" in user_input_lower or "procure por" in user_input_lower:
         search_query = user_input_lower.replace("pesquisar por", "").replace("pesquise por", "").replace("procure por", "").strip()
         if search_query:
-            results = (Google Search_query)
+            results = (Google_Search_query)
             if results and not isinstance(results, str): # Verifica se há resultados e não é uma mensagem de erro
                 top_result = results[0]
                 title = top_result.get('title', 'Sem título')
